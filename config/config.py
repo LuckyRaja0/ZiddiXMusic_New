@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AsadAli:AsadAli@cluster0.3ejv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hotspotm:hotspotm@cluster0.q9kiv20.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90000000")
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001631416406"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001632249971"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Alisha Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "UNK Music")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5745099463").split())
+    map(int, getenv("OWNER_ID", "1211015395").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Team-Alisha/AlishaMusic",
+    "https://github.com/Kshitij-UNK/tpbc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
